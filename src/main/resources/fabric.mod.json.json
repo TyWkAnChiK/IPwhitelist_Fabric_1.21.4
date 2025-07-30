@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "whitelistip",
+  "version": "1.0.0",
+  "name": "IP Whitelist",
+  "description": "Разрешает доступ только с IP из белого списка",
+  "authors": ["trofitysh"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["net.example.whitelistip.WhiteListIPMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21.x"
+  }
+}
