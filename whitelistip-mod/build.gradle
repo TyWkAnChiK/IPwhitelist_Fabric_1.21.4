@@ -1,4 +1,0 @@
-dependencies {
-    implementation 'net.fabricmc:fabric-loader:0.15.0'
-    implementation 'net.fabricmc.fabric-api:fabric-api:0.85.0+1.20.1'
-}
